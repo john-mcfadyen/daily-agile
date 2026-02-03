@@ -6,35 +6,182 @@
     <description>Recent content on Daily Agile</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Embracing Empathy: The Path to Connection</title>
-      <link>http://localhost:1313/blog/embracing-empathy/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/embracing-empathy/</guid>
-      <description>Empathy is the cornerstone of effective Agile collaboration, enabling teams to build stronger relationships and create more impactful products through deep understanding. Start fostering a more empathetic team environment today.</description>
+      <title>Radical Transparency</title>
+      <link>http://localhost:1313/blog/2026-02-03-radical-transparency/</link>
+      <pubDate>Tue, 03 Feb 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-02-03-radical-transparency/</guid>
+      <description>Radical Transparency. Hiding bad news only makes the eventual impact worse. Be honest about progress&amp;hellip;.</description>
     </item>
     <item>
-      <title>Redefining Agile Leadership</title>
-      <link>http://localhost:1313/blog/agile-leadership/</link>
-      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/agile-leadership/</guid>
-      <description>Agile leadership replaces command-and-control with service and empowerment, challenging leaders to support team autonomy while providing a safety net for experimentation. Refine your leadership style to unlock your team&amp;rsquo;s true potential.</description>
+      <title>Human Connection</title>
+      <link>http://localhost:1313/blog/2026-02-02-human-connection/</link>
+      <pubDate>Mon, 02 Feb 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-02-02-human-connection/</guid>
+      <description>Human Connection. Agile is about people. Never forget the humans behind the keyboards and the users behind the screens&amp;hellip;</description>
     </item>
     <item>
-      <title>The Art of Continuous Improvement</title>
-      <link>http://localhost:1313/blog/continuous-improvement/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/continuous-improvement/</guid>
-      <description>Success in Agile is driven by a relentless commitment to small, incremental improvements every single day, shifting the focus from static perfection to dynamic progress. Discover how your team can embrace a Kaizen mindset for sustainable excellence.</description>
+      <title>Continuous Delivery</title>
+      <link>http://localhost:1313/blog/2026-01-30-continuous-delivery/</link>
+      <pubDate>Fri, 30 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-30-continuous-delivery/</guid>
+      <description>Continuous Delivery. The faster you can ship, the faster you can learn from real users&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>The Power of Questions</title>
+      <link>http://localhost:1313/blog/2026-01-29-the-power-of-questions/</link>
+      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-29-the-power-of-questions/</guid>
+      <description>The Power of Questions. A good coach doesn&amp;rsquo;t give answers; they ask the right questions&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Visualizing Work</title>
+      <link>http://localhost:1313/blog/2026-01-28-visualizing-work/</link>
+      <pubDate>Wed, 28 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-28-visualizing-work/</guid>
+      <description>Visualizing Work. If you can&amp;rsquo;t see the work, you can&amp;rsquo;t manage the flow. Make the invisible visible&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Simplifying the Backlog</title>
+      <link>http://localhost:1313/blog/2026-01-27-simplifying-the-backlog/</link>
+      <pubDate>Tue, 27 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-27-simplifying-the-backlog/</guid>
+      <description>Simplifying the Backlog. A backlog with 500 items is just a graveyard of ideas. Keep it lean&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Trusting the Process</title>
+      <link>http://localhost:1313/blog/2026-01-26-trusting-the-process/</link>
+      <pubDate>Mon, 26 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-26-trusting-the-process/</guid>
+      <description>Trusting the Process. Frameworks like Scrum aren&amp;rsquo;t magic, but they provide a structure for discipline&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Daily Synchronization</title>
+      <link>http://localhost:1313/blog/2026-01-23-daily-synchronization/</link>
+      <pubDate>Fri, 23 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-23-daily-synchronization/</guid>
+      <description>Daily Synchronization. The Stand-up is for the team, not the manager. It&amp;rsquo;s about alignment, not reporting&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>The Value of Silence</title>
+      <link>http://localhost:1313/blog/2026-01-22-the-value-of-silence/</link>
+      <pubDate>Thu, 22 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-22-the-value-of-silence/</guid>
+      <description>The Value of Silence. Sometimes the most productive thing you can do is stop talking and start thinking&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Iterative Design</title>
+      <link>http://localhost:1313/blog/2026-01-21-iterative-design/</link>
+      <pubDate>Wed, 21 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-21-iterative-design/</guid>
+      <description>Iterative Design. Don&amp;rsquo;t build a car when the user just needs to cross the street. Build a skateboard first&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Empowered Teams</title>
+      <link>http://localhost:1313/blog/2026-01-20-empowered-teams/</link>
+      <pubDate>Tue, 20 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-20-empowered-teams/</guid>
+      <description>Empowered Teams. The people doing the work are the best ones to decide &lt;em&gt;how&lt;/em&gt; to do the work&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Technical Debt</title>
+      <link>http://localhost:1313/blog/2026-01-19-technical-debt/</link>
+      <pubDate>Mon, 19 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-19-technical-debt/</guid>
+      <description>Technical Debt. Ignoring technical debt is like taking out a high-interest loan. Eventually, the interest will consu&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Product Vision</title>
+      <link>http://localhost:1313/blog/2026-01-16-product-vision/</link>
+      <pubDate>Fri, 16 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-16-product-vision/</guid>
+      <description>Product Vision. Without a clear vision, your backlog is just a grocery list written by ten different people&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>The Value of Focus</title>
+      <link>http://localhost:1313/blog/2026-01-15-the-value-of-focus/</link>
+      <pubDate>Thu, 15 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-15-the-value-of-focus/</guid>
+      <description>The Value of Focus. Multitasking is a myth. You&amp;rsquo;re just context-switching your way to exhaustion and mediocrity&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Psychological Safety</title>
+      <link>http://localhost:1313/blog/2026-01-14-psychological-safety/</link>
+      <pubDate>Wed, 14 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-14-psychological-safety/</guid>
+      <description>Psychological Safety. Without trust, you don&amp;rsquo;t have a team; you have a group of people hiding their mistakes&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Sustainability over Speed</title>
+      <link>http://localhost:1313/blog/2026-01-13-sustainability-over-speed/</link>
+      <pubDate>Tue, 13 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-13-sustainability-over-speed/</guid>
+      <description>Sustainability over Speed. Sprint is a misnomer. Agile is a marathon. Maintain a pace you can keep indefinitely&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>The Definition of Done</title>
+      <link>http://localhost:1313/blog/2026-01-12-the-definition-of-done/</link>
+      <pubDate>Mon, 12 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-12-the-definition-of-done/</guid>
+      <description>The Definition of Done. Half-done is not done. It&amp;rsquo;s just a pile of work for someone else to finish later&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Embracing Change</title>
+      <link>http://localhost:1313/blog/2026-01-09-embracing-change/</link>
+      <pubDate>Fri, 09 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-09-embracing-change/</guid>
+      <description>Embracing Change. Responding to change over following a plan is easy to say, hard to do. It requires letting go of the&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Failing Forward</title>
+      <link>http://localhost:1313/blog/2026-01-08-failing-forward/</link>
+      <pubDate>Thu, 08 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-08-failing-forward/</guid>
+      <description>Failing Forward. Failure is only a mistake if you don&amp;rsquo;t learn from it. In Agile, we fail fast to learn faster&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>User Stories are Conversations</title>
+      <link>http://localhost:1313/blog/2026-01-07-user-stories-are-conversations/</link>
+      <pubDate>Wed, 07 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-07-user-stories-are-conversations/</guid>
+      <description>User Stories are Conversations. If you can&amp;rsquo;t explain the value of a story in one sentence, you haven&amp;rsquo;t understood the user&amp;rsquo;s problem&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Retrospectives that Matter</title>
+      <link>http://localhost:1313/blog/2026-01-06-retrospectives-that-matter/</link>
+      <pubDate>Tue, 06 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-06-retrospectives-that-matter/</guid>
+      <description>Retrospectives that Matter. A retrospective without an action item is just a feedback loop that leads nowhere. Change requires c&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Power of &#39;No&#39;</title>
+      <link>http://localhost:1313/blog/2026-01-05-the-power-of-no/</link>
+      <pubDate>Mon, 05 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-05-the-power-of-no/</guid>
+      <description>The Power of &amp;lsquo;No&amp;rsquo;. Priority isn&amp;rsquo;t about what you do; it&amp;rsquo;s about what you choose not to do. Every &amp;lsquo;yes&amp;rsquo; is a &amp;rsquo;no&amp;rsquo; to som&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Communication is the Glue</title>
+      <link>http://localhost:1313/blog/2026-01-02-communication-is-the-glue/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-02-communication-is-the-glue/</guid>
+      <description>Communication is the Glue. The best tools in the world can&amp;rsquo;t fix a team that doesn&amp;rsquo;t talk. Over-communicate, especially when th&amp;hellip;</description>
+    </item>
+    <item>
+      <title>The Illusion of Certainty</title>
+      <link>http://localhost:1313/blog/2026-01-01-the-illusion-of-certainty/</link>
+      <pubDate>Thu, 01 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-01-the-illusion-of-certainty/</guid>
+      <description>The Illusion of Certainty. In complex environments, a detailed 6-month plan isn&amp;rsquo;t a roadmap; it&amp;rsquo;s a security blanket. Agility i&amp;hellip;</description>
     </item>
     <item>
       <title>Contact Us</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;We&amp;rsquo;d love to hear from you! Whether you have a question, a suggestion for a daily reflection, or just want to say hello, please don&amp;rsquo;t hesitate to reach out.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Address:&lt;/strong&gt;&#xA;36-56, Kingsland Road&#xA;Chingford Mount E3 HO&#xA;Greater London&#xA;United Kingdom&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt;&#xA;&lt;a href=&#34;mailto:hello@daily-agile.com&#34;&gt;hello@daily-agile.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Social Media:&lt;/strong&gt;&#xA;Follow us on &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;https://instagram.com&#34;&gt;Instagram&lt;/a&gt;, and &lt;a href=&#34;https://facebook.com&#34;&gt;Facebook&lt;/a&gt; for daily updates and community discussions.&lt;/p&gt;</description>
+      <description>&lt;p&gt;We&amp;rsquo;d love to hear from you! Whether you have a question, a suggestion for a daily reflection, or just want to say hello, please don&amp;rsquo;t hesitate to reach out.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Experience</title>

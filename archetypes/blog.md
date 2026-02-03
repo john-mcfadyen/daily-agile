@@ -3,18 +3,13 @@ title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 image: "images/blog-placeholder.jpg"
-summary: "A brief distillation of the post here. This should conclude with a clear call to action to engage the reader."
+summary: "A brief distillation of the post here."
 ---
 
-## Introduction
+> "Famous quote goes here..." — Author
 
-Start your reflection here...
+Write approximately 150 words here. Distill the quote through an Agile philosophy lens, weaving in a touch of a real-world story.
 
-## Key Insights
+## The Daily Experiment
 
-- Point 1
-- Point 2
-
-## Conclusion
-
-Final thoughts on this Agile reflection.
+Give the reader a specific, actionable challenge to try today.

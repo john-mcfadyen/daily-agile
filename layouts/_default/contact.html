@@ -1,0 +1,76 @@
+{{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article class="single-post">
+    <header class="post-header">
+        <h1>{{ .Title }}</h1>
+    </header>
+
+    <div class="post-content">
+        <div class="post-body">
+            {{ .Content }}
+
+            <div class="contact-form-container">
+                <form id="contact-form" action="/process_contact.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</article>
+
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const form = this;
+        const statusDiv = document.getElementById('form-status');
+        const submitBtn = form.querySelector('button[type="submit"]');
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+        statusDiv.className = '';
+        statusDiv.textContent = '';
+
+        const formData = new FormData(form);
+
+        fetch('/process_contact.php', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    statusDiv.className = 'status-success';
+                    statusDiv.textContent = 'Thank you! Your message has been sent.';
+                    form.reset();
+                } else {
+                    statusDiv.className = 'status-error';
+                    statusDiv.textContent = data.message || 'An error occurred. Please try again.';
+                }
+            })
+            .catch(error => {
+                statusDiv.className = 'status-error';
+                statusDiv.textContent = 'An error occurred. Please try again later.';
+                console.error('Error:', error);
+            })
+            .finally(() => {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Send Message';
+            });
+    });
+</script>
+{{ end }}

@@ -1,34 +1,32 @@
 {{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<article class="single-post">
-    <header class="post-header">
-        <time class="post-date" datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-    </header>
-
-    {{ if .Params.image }}
-    <div class="post-featured-image-wrapper">
-        {{ $img := resources.Get .Params.image }}
-        {{ if $img }}
-        {{ $resized := $img.Fill "1200x500 Center" | images.Filter images.Grayscale }}
-        <img src="{{ $resized.RelPermalink }}" width="{{ $resized.Width }}" height="{{ $resized.Height }}"
-            alt="{{ .Title }}" class="post-featured-image">
-        {{ else }}
-        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="post-featured-image">
-        {{ end }}
-        <div class="post-title-overlay">
-            <h1>{{ .Title }}</h1>
-        </div>
+{{ if .Params.image }}
+{{ $img := resources.Get .Params.image }}
+{{ if $img }}
+{{ $hero := $img.Fill "1920x600 Center" | images.Filter images.Grayscale }}
+<header class="post-hero" style="background-image: url('{{ $hero.RelPermalink }}');">
+    <div class="post-hero-content">
+        <time class="post-hero-date" datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006"
+            }}</time>
+        <h1 class="post-hero-title">{{ .Title }}</h1>
     </div>
-    {{ else }}
-    <h1>{{ .Title }}</h1>
-    {{ end }}
+</header>
+{{ else }}
+<header class="post-hero-minimal">
+    <time class="post-hero-date" datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    <h1 class="post-hero-title-dark">{{ .Title }}</h1>
+</header>
+{{ end }}
+{{ else }}
+<header class="post-hero-minimal">
+    <time class="post-hero-date" datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    <h1 class="post-hero-title-dark">{{ .Title }}</h1>
+</header>
+{{ end }}
 
+<article class="single-post">
     <div class="post-content">
-        {{ if .Params.summary }}
-        <p class="post-excerpt">{{ .Params.summary }}</p>
-        {{ end }}
-
         <div class="post-body">
             {{ .Content }}
         </div>

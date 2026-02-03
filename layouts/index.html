@@ -2,27 +2,27 @@
 
 {{ define "main" }}
 <!-- Hero Section -->
-<section class="hero">
-    <div class="hero-image-wrapper">
-        {{ $heroImage := resources.Get "images/hero-balanced-rocks.jpg" }}
-        {{ if $heroImage }}
-        {{ $resizedHero := $heroImage.Fill "1200x500 Center" | images.Filter images.Grayscale }}
-        <img src="{{ $resizedHero.RelPermalink }}" width="{{ $resizedHero.Width }}" height="{{ $resizedHero.Height }}"
-            alt="Balanced rocks representing harmony and Agile principles" class="hero-image">
-        {{ else }}
-        <p>Error: Hero image not found</p>
-        {{ end }}
-        <div class="hero-overlay">
-            <p class="hero-subtitle">A contemplative journey exploring Agile wisdom through diverse perspectives,
-                fostering continuous learning and growth.</p>
-            <h2 class="hero-title">Your Journey Begins Here</h2>
-            <div class="hero-buttons">
-                <a href="#about" class="btn btn-primary">Get Started</a>
-                <a href="/blog/" class="btn btn-secondary">Learn More</a>
-            </div>
+{{ $heroImage := resources.Get "images/hero-balanced-rocks.jpg" }}
+{{ if $heroImage }}
+{{ $resizedHero := $heroImage.Fill "1920x800 Center" | images.Filter images.Grayscale }}
+<section class="hero-full" style="background-image: url('{{ $resizedHero.RelPermalink }}');">
+    <div class="hero-content">
+        <p class="hero-subtitle">Reflections for Modern Teams</p>
+        <h2 class="hero-title">Your Journey Begins Here</h2>
+        <div class="hero-buttons">
+            <a href="/blog/" class="btn btn-primary">Read the Blog</a>
+            <a href="/about/" class="btn btn-secondary">Learn More</a>
         </div>
     </div>
 </section>
+{{ else }}
+<section class="hero-full">
+    <div class="hero-content">
+        <h2 class="hero-title">Daily Agile</h2>
+        <p class="hero-subtitle">A contemplative journey exploring Agile wisdom.</p>
+    </div>
+</section>
+{{ end }}
 
 <!-- About Section -->
 <section id="about" class="content-section">
@@ -48,7 +48,6 @@
 
 <!-- Email Subscription -->
 <section class="email-subscription">
-    <div class="email-icon">✉️</div>
     <h2>Join other Agile practitioners and get our daily email reflections.</h2>
     <p>Subscribe to get our free Daily Agile email. Designed to help you reflect on your Agile practice and continually
         improve.</p>
