@@ -10,7 +10,9 @@
         <p class="hero-subtitle">Reflections for Modern Teams</p>
         <h2 class="hero-title">Your Journey Begins Here</h2>
         <div class="hero-buttons">
-            <a href="/blog/" class="btn btn-primary">Read the Blog</a>
+            {{ range first 1 (where .Site.RegularPages "Type" "blog") }}
+            <a href="{{ .Permalink }}" class="btn btn-primary">Read the Blog</a>
+            {{ end }}
             <a href="/about/" class="btn btn-secondary">Learn More</a>
         </div>
     </div>

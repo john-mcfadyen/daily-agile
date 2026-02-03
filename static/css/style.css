@@ -29,6 +29,8 @@ body {
     color: var(--text-dark);
     background-color: #ffffff;
     min-height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 h1,
@@ -298,6 +300,7 @@ main {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    color: #ffffff;
 }
 
 .email-subscription p {
@@ -794,4 +797,19 @@ footer {
     background-color: #f8d7da;
     color: #721c24;
     border: 1px solid #f5c6cb;
+}
+
+/* Ensure whitespace on mobile devices */
+@media (max-width: 480px) {
+    :root {
+        --spacing-md: 1.25rem;
+        --spacing-lg: 2rem;
+        --spacing-xl: 3rem;
+    }
+
+    .hero-title,
+    .post-hero-title,
+    .post-hero-title-dark {
+        font-size: 2.5rem;
+    }
 }
