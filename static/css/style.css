@@ -240,29 +240,7 @@ main {
     margin-top: var(--spacing-sm);
 }
 
-.btn {
-    padding: 0.8rem 2.5rem;
-    border: none;
-    border-radius: 0;
-    /* Square edges for cleaner look */
-    font-size: 0.9rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
 
-.btn-primary {
-    background: #1a1a1a;
-    /* Darker, more neutral button */
-    color: #ffffff;
-}
-
-.btn-primary:hover {
-    background: #333333;
-    transform: translateY(-2px);
-}
 
 .btn-secondary {
     background: transparent;
@@ -739,6 +717,7 @@ footer {
         font-size: 2rem;
     }
 }
+
 /* Contact Form Styles */
 .contact-form-container {
     max-width: 600px;
@@ -775,7 +754,7 @@ footer {
     border-color: var(--text-dark);
 }
 
-.btn-primary {
+.contact-form-container .btn-primary {
     background-color: var(--text-dark);
     color: #fff;
     padding: 1rem 2rem;
@@ -788,12 +767,12 @@ footer {
     width: 100%;
 }
 
-.btn-primary:hover {
+.contact-form-container .btn-primary:hover {
     background-color: #333;
     opacity: 1;
 }
 
-.btn-primary:disabled {
+.contact-form-container .btn-primary:disabled {
     background-color: #ccc;
     cursor: not-allowed;
 }
