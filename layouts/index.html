@@ -1,0 +1,91 @@
+{{ define "title" }}{{ .Site.Title }} - {{ .Site.Params.description }}{{ end }}
+
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-image-wrapper">
+        {{ $heroImage := resources.Get "images/hero-balanced-rocks.jpg" }}
+        {{ if $heroImage }}
+        {{ $resizedHero := $heroImage.Fill "1200x500 Center" | images.Filter images.Grayscale }}
+        <img src="{{ $resizedHero.RelPermalink }}" width="{{ $resizedHero.Width }}" height="{{ $resizedHero.Height }}"
+            alt="Balanced rocks representing harmony and Agile principles" class="hero-image">
+        {{ else }}
+        <p>Error: Hero image not found</p>
+        {{ end }}
+        <div class="hero-overlay">
+            <p class="hero-subtitle">A contemplative journey exploring Agile wisdom through diverse perspectives,
+                fostering continuous learning and growth.</p>
+            <h2 class="hero-title">Your Journey Begins Here</h2>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Get Started</a>
+                <a href="/blog/" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="content-section">
+    <h2 class="section-title">This is how it all started...</h2>
+    <div class="section-content">
+        <p>In the ever-evolving landscape of work, the Agile philosophy has emerged as a beacon of hope, guiding teams
+            towards a more collaborative, adaptive, and human-centric approach. Inspired by the profound wisdom found in
+            Ryan Holiday's "The Daily Stoic," the idea for Daily Agile was born – a platform dedicated to fostering
+            deeper contemplation and understanding of Agile principles and practices.</p>
+
+        <p>The Daily Stoic's powerful blend of ancient wisdom and modern-day relevance struck a chord, prompting the
+            realisation that a similar approach could be invaluable for Agile practitioners. By curating a collection of
+            thought-provoking quotes from both Agile luminaries and historical figures, Daily Agile aims to ignite
+            introspection and spark meaningful discussions within the Agile community.</p>
+
+        <p>At its core, Daily Agile recognises that Agile is not merely a set of rigid rules or methodologies, but a
+            mindset – a way of thinking and being that transcends any specific framework. By exploring diverse
+            perspectives and drawing from a tapestry of wisdom, Daily Agile invites its readers to embark on a journey
+            of self-discovery, challenging them to question their assumptions and explore what it truly means to embrace
+            an Agile way of life.</p>
+    </div>
+</section>
+
+<!-- Email Subscription -->
+<section class="email-subscription">
+    <div class="email-icon">✉️</div>
+    <h2>Join other Agile practitioners and get our daily email reflections.</h2>
+    <p>Subscribe to get our free Daily Agile email. Designed to help you reflect on your Agile practice and continually
+        improve.</p>
+    <form class="subscribe-form" action="#" method="post">
+        <input type="email" placeholder="Enter your email address" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+</section>
+
+<!-- Latest Reflections -->
+<section class="blog-previews">
+    <div class="blog-previews-header">
+        <h2>Latest Reflections</h2>
+        <p>Get the latest thoughts and reflections here!</p>
+    </div>
+    <div class="blog-grid">
+        {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
+        <article class="blog-card">
+            <a href="{{ .Permalink }}">
+                {{ if .Params.image }}
+                {{ $img := resources.Get .Params.image }}
+                {{ if $img }}
+                {{ $resized := $img.Fill "800x450 Center" | images.Filter images.Grayscale }}
+                <img src="{{ $resized.RelPermalink }}" width="{{ $resized.Width }}" height="{{ $resized.Height }}"
+                    alt="{{ .Title }}" class="blog-card-image">
+                {{ else }}
+                <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="blog-card-image">
+                {{ end }}
+                {{ end }}
+                <div class="blog-card-content">
+                    <time class="blog-card-date" datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                    <h3 class="blog-card-title">{{ .Title }}</h3>
+                    <p class="blog-card-excerpt">{{ .Params.summary }}</p>
+                </div>
+            </a>
+        </article>
+        {{ end }}
+    </div>
+</section>
+{{ end }}

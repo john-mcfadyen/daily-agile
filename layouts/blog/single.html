@@ -1,0 +1,37 @@
+{{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article class="single-post">
+    <header class="post-header">
+        <time class="post-date" datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    </header>
+
+    {{ if .Params.image }}
+    <div class="post-featured-image-wrapper">
+        {{ $img := resources.Get .Params.image }}
+        {{ if $img }}
+        {{ $resized := $img.Fill "1200x500 Center" | images.Filter images.Grayscale }}
+        <img src="{{ $resized.RelPermalink }}" width="{{ $resized.Width }}" height="{{ $resized.Height }}"
+            alt="{{ .Title }}" class="post-featured-image">
+        {{ else }}
+        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="post-featured-image">
+        {{ end }}
+        <div class="post-title-overlay">
+            <h1>{{ .Title }}</h1>
+        </div>
+    </div>
+    {{ else }}
+    <h1>{{ .Title }}</h1>
+    {{ end }}
+
+    <div class="post-content">
+        {{ if .Params.summary }}
+        <p class="post-excerpt">{{ .Params.summary }}</p>
+        {{ end }}
+
+        <div class="post-body">
+            {{ .Content }}
+        </div>
+    </div>
+</article>
+{{ end }}

@@ -1,0 +1,22 @@
+{{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="content-section">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <div class="section-content">
+        {{ .Content }}
+    </div>
+
+    {{ if .Pages }}
+    <div class="section-subpages" style="margin-top: 2rem;">
+        <h3 style="margin-bottom: 1rem;">More in this section:</h3>
+        <ul style="list-style: none;">
+            {{ range .Pages }}
+            <li style="margin-bottom: 0.5rem;"><a href="{{ .Permalink }}"
+                    style="color: var(--primary-blue); font-weight: 600;">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

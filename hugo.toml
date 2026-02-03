@@ -1,3 +1,28 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://daily-agile.com/'
+languageCode = 'en-gb'
+title = 'Daily Agile'
+
+[pagination]
+  pagerSize = 9
+
+[params]
+  description = "Reflections for Modern Teams"
+  author = "John McFadyen"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily Agile</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Daily Agile</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embracing Empathy: The Path to Connection</title>
+      <link>http://localhost:1313/blog/embracing-empathy/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/embracing-empathy/</guid>
+      <description>Empathy is the cornerstone of effective Agile collaboration, enabling teams to build stronger relationships and create more impactful products through deep understanding. Start fostering a more empathetic team environment today.</description>
+    </item>
+    <item>
+      <title>Redefining Agile Leadership</title>
+      <link>http://localhost:1313/blog/agile-leadership/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/agile-leadership/</guid>
+      <description>Agile leadership replaces command-and-control with service and empowerment, challenging leaders to support team autonomy while providing a safety net for experimentation. Refine your leadership style to unlock your team&amp;rsquo;s true potential.</description>
+    </item>
+    <item>
+      <title>The Art of Continuous Improvement</title>
+      <link>http://localhost:1313/blog/continuous-improvement/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/continuous-improvement/</guid>
+      <description>Success in Agile is driven by a relentless commitment to small, incremental improvements every single day, shifting the focus from static perfection to dynamic progress. Discover how your team can embrace a Kaizen mindset for sustainable excellence.</description>
+    </item>
+    <item>
+      <title>Contact Us</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;d love to hear from you! Whether you have a question, a suggestion for a daily reflection, or just want to say hello, please don&amp;rsquo;t hesitate to reach out.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Address:&lt;/strong&gt;&#xA;36-56, Kingsland Road&#xA;Chingford Mount E3 HO&#xA;Greater London&#xA;United Kingdom&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt;&#xA;&lt;a href=&#34;mailto:hello@daily-agile.com&#34;&gt;hello@daily-agile.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Social Media:&lt;/strong&gt;&#xA;Follow us on &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;https://instagram.com&#34;&gt;Instagram&lt;/a&gt;, and &lt;a href=&#34;https://facebook.com&#34;&gt;Facebook&lt;/a&gt; for daily updates and community discussions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Experience</title>
+      <link>http://localhost:1313/about/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/experience/</guid>
+      <description>&lt;p&gt;I have spent over a decade working with teams across various industries, helping them embrace Agile principles and practices.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scrum Master &amp;amp; Agile Coach:&lt;/strong&gt; Guided multiple teams through their Agile transformations.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Workshop Facilitator:&lt;/strong&gt; Designed and led interactive workshops on Scrum, Kanban, and Agile leadership.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Presented at regional and international Agile conferences.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;My experience has taught me that while frameworks are useful, it is the &lt;em&gt;people&lt;/em&gt; and their interactions that truly determine success.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Goals</title>
+      <link>http://localhost:1313/about/goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/goals/</guid>
+      <description>&lt;p&gt;My primary goal with Daily Agile is to create a resource that I wish I had when I started my journey.&lt;/p&gt;&#xA;&lt;h2 id=&#34;specific-goals&#34;&gt;Specific Goals:&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inspire Reflection:&lt;/strong&gt; To provide daily prompts that encourage deeper thinking about our work.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Foster Community:&lt;/strong&gt; To build a space where practitioners can share insights and support one another.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Humanize Work:&lt;/strong&gt; To advocate for workplaces that respect and empower individuals.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Simplify Complexity:&lt;/strong&gt; To break down complex Agile concepts into actionable insights.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>My Journey</title>
+      <link>http://localhost:1313/about/journey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/journey/</guid>
+      <description>&lt;p&gt;My journey into Agile began not with a certification, but with a frustration with the status quo. I saw projects failing, teams burning out, and customers unhappy. I knew there had to be a better way.&lt;/p&gt;&#xA;&lt;p&gt;Discovering the Agile Manifesto was a watershed moment. It wasn&amp;rsquo;t just a new process; it was a philosophy that aligned with my values.&lt;/p&gt;&#xA;&lt;p&gt;Since then, I&amp;rsquo;ve been on a continuous path of learning, unlearning, and relearning. From the trenches of software development to the boardrooms of large enterprises, I&amp;rsquo;ve seen the transformative power of Agile when applied with authenticity and care.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I Write</title>
+      <link>http://localhost:1313/about/why-i-write/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/why-i-write/</guid>
+      <description>&lt;p&gt;Writing is a tool for thinking. By articulating thoughts on Agile, leadership, and team dynamics, I clarify my own understanding and hope to spark similar clarity for others.&lt;/p&gt;&#xA;&lt;p&gt;I write to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Share knowledge and experiences&lt;/li&gt;&#xA;&lt;li&gt;Challenge conventional wisdom&lt;/li&gt;&#xA;&lt;li&gt;Connect with like-minded practitioners&lt;/li&gt;&#xA;&lt;li&gt;Document my own learning journey&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Every post is an invitation to dialogue.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+{{ define "title" }}Blog - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="blog-list">
+    {{ range .Pages }}
+    <article class="blog-list-item">
+        <a href="{{ .Permalink }}">
+            {{ if .Params.image }}
+            {{ $img := resources.Get .Params.image }}
+            {{ if $img }}
+            {{ $resized := $img.Fill "1200x400 Center" | images.Filter images.Grayscale }}
+            <img src="{{ $resized.RelPermalink }}" width="{{ $resized.Width }}" height="{{ $resized.Height }}"
+                alt="{{ .Title }}" class="blog-list-image">
+            {{ else }}
+            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="blog-list-image">
+            {{ end }}
+            {{ end }}
+            <div class="blog-list-content">
+                <time class="blog-list-date" datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                <h2 class="blog-list-title">{{ .Title }}</h2>
+                <p class="blog-list-excerpt">{{ .Params.summary }}</p>
+            </div>
+        </a>
+    </article>
+    {{ end }}
+</div>
+{{ end }}
