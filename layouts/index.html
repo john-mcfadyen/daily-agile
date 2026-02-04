@@ -7,7 +7,7 @@
 {{ $resizedHero := $heroImage.Fill "1920x800 Center" | images.Filter images.Grayscale }}
 <section class="hero-full" style="background-image: url('{{ $resizedHero.RelPermalink }}');">
     <div class="hero-content">
-        <p class="hero-subtitle">Reflections for Modern Teams</p>
+        <p class="hero-subtitle">A contemplative journey exploring Agile wisdom through diverse perspectives, fostering continuous learning and growth.</p>
         <h2 class="hero-title">Your Journey Begins Here</h2>
         <div class="hero-buttons">
             {{ range first 1 (where .Site.RegularPages "Type" "blog") }}
